@@ -2,7 +2,7 @@ body{
     display:flex;
     white-space:nowrap;
     flex-direction:row;                    /*used it to wrap the boxes onto a single line*/
-    margin:0;
+    margin:0;                             /*added margin to remove the default the defualt browser margins around the page*/
 }
 
 .box{
