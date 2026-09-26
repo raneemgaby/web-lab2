@@ -1,2 +1,2 @@
 ## File organization:first i did the html documentation included the boxes content inside the <body> element and class named box.Then started the implementation of styleA boxes included the spaces,color,font-size,area and more specifications of the boxes and specialized traits for the last box.Eventually implemented the styleB boxes again designed according to the specific characteristics to the boxes,included special traits for the last box and a pseudo-class for hover.
-## Challenges:faced difficulty with using the syntax and handling the dynamic resizings.
+## Challenges:faced difficulty with using the syntax and handling the dynamic resizings,confused the items flex commands with the actual box allocating commands.
