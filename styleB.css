@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    white-space:nowrap;
+    flex-direction:row;                    /*used it to wrap the boxes onto a single line*/
+    margin:0;
+}
+
+.box{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width:100px;
+    height:150px;
+    background-color:#eeeff2;
+    border-left:10px dotted #D0D0FF;    /*used the shorthand form of border to assign it's pixel,form and color*/
+    margin-right:10px;
+    font-family:tahoma;
+    font-size:40px;
+    padding-left:10px;      /*adding a space between the content and the footnote*/
+    box-sizing: border-box;
+}     
+
+/*adding the specicification of the last child in bottom-right corner*/
+.box:last-child{
+    position:fixed;
+    margin:0;
+    right:0;              /*the right and bottom needed to be used otherwise the position gonna be relative to the browseer window itself*/
+    bottom:0;            /*by assigning right and bottom to 0 referring to make the space between the bottom and right corner zero*/    
+}
+
+/*building the pseudo-class hover to make a hand appear once hovering over any box in this sheet with a background and a item-color changes*/
+.box:hover{
+    cursor:pointer;        
+    background:yellow;
+    color:goldenrod;
+}
+

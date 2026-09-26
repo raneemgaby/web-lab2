@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;            /*to managing the dynamic gap between boxes vertically*/
+    align-items: center;
+    margin:0;
+    min-height:100vh;                         /*setting viewport height helps to stretch the content according the device-window size*/
+}
+.box {
+    font-family:tahoma;
+    font-size:40px;
+    border-top:1px solid #687291;          /*used the shorthand border-top form which implemented to add a weight also to make the line actually appear*/
+    height:100px;
+    width:100px;
+    display:flex;                            /*uses the flex display method*/
+    justify-content:center;                  /*organosed the content horizontally*/
+    align-items:flex-start;                  /*organising the content vertically*/
+    align-content:center;
+    box-sizing: border-box;
+}
+
+/*used the property of nth-child pseudo-class to destribute the color to the boxes according to their category even/odd according to this sheet requirements*/
+.box:nth-child(odd){
+    background-color:#dfe1e7;
+}
+.box:nth-child(even){
+    background-color:#eeeff2;
+}
+.box:last-child{                    /*changing the last box property so it can override the general customization for the whole boxes*/
+    color:#687291;  
+    border:4px solid black;
+    align-items:center;
+}
