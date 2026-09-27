@@ -30,7 +30,7 @@ body{
     bottom:0;            /*by assigning right and bottom to 0 referring to make the space between the bottom and right corner zero*/    
 }
 
-/*building the pseudo-class hover to make a hand appear once hovering over any box in this sheet with a background and a item-color changes*/
+/*building the pseudo-class hover to make a hand appear once hovering over any box in this sheet with a background and an item-color changes*/
 .box:hover{
     cursor:pointer;        
     background:yellow;

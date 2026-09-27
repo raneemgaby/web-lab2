@@ -1,7 +1,7 @@
 body{
     display:flex;
     flex-direction:column;
-    justify-content:space-between;            /*to managing the dynamic gap between boxes vertically*/
+    justify-content:space-between;            /*to manage the dynamic gap between boxes vertically*/
     align-items: center;
     margin:0;
     min-height:100vh;                         /*setting viewport height helps to stretch the content according the device-window size*/
@@ -14,12 +14,12 @@ body{
     height:100px;
     width:100px;
     display:flex;                            /*uses the flex display method*/
-    justify-content:center;                  /*organosed the content horizontally*/
-    align-items:flex-start;                  /*organising the content vertically*/
+    justify-content:center;                  /*organised the content horizontally*/
+    align-items:flex-start;                  /*organised the content vertically*/
     box-sizing: border-box;                 /*to reserve the size to not get over 100x100 so it include the padding and border inside the 100x100*/
 }
 
-/*used the property of nth-child pseudo-class to destribute the color to the boxes according to their category even/odd according to this sheet requirements*/
+/*used the property of nth-child pseudo-class to distribute the color to the boxes according to their category even/odd according to this sheet requirements*/
 .box:nth-child(odd){
     background-color:#dfe1e7;
 }
