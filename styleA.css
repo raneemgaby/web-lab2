@@ -16,8 +16,7 @@ body{
     display:flex;                            /*uses the flex display method*/
     justify-content:center;                  /*organosed the content horizontally*/
     align-items:flex-start;                  /*organising the content vertically*/
-    align-content:center;
-    box-sizing: border-box;
+    box-sizing: border-box;                 /*to reserve the size to not get over 100x100 so it include the padding and border inside the 100x100*/
 }
 
 /*used the property of nth-child pseudo-class to destribute the color to the boxes according to their category even/odd according to this sheet requirements*/

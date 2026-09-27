@@ -1,8 +1,9 @@
 body{
     display:flex;
-    white-space:nowrap;
-    flex-direction:row;                    /*used it to wrap the boxes onto a single line*/
+    white-space:nowrap;                    /*used it to wrap the boxes onto a single line even when the page is resized*/
+    flex-direction:row;                   
     margin:0;                             /*added margin to remove  the defualt browser margins around the page*/
+    min-width:100px;                      /*add it to make the boxes to let the boxes stays on the same line no matter how small the window gets*/
 }
 
 .box{
@@ -18,6 +19,7 @@ body{
     font-size:40px;
     padding-left:10px;      /*adding a space between the content and the footnote*/
     box-sizing: border-box;
+    flex-shrink: 0;
 }     
 
 /*adding the specicification of the last child in bottom-right corner*/
